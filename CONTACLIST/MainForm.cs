@@ -24,8 +24,7 @@ namespace CONTACLIST
 
         private void btnAddContact_Click(object sender, EventArgs e)
         {
-            ADDCONTACTFORM ADDCONTACTFORM = new ADDCONTACTFORM();
-            ADDCONTACTFORM.ShowDialog();
+          
         }
     }
 }
