@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace CONTACLIST
 {
-    public partial class MainForm: Form
+    public partial class ADDCONTACTFORM : Form
     {
-        public MainForm()
+        public ADDCONTACTFORM()
         {
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
         }
 
-        private void btnAddContact_Click(object sender, EventArgs e)
+        private void txtName_TextChanged(object sender, EventArgs e)
         {
-            ADDCONTACTFORM ADDCONTACTFORM = new ADDCONTACTFORM();
-            ADDCONTACTFORM.ShowDialog();
+
         }
     }
 }
